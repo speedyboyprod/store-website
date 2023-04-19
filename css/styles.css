@@ -10,7 +10,13 @@ header {
 
 main {
  margin: 0 auto;
- padding: 15px 10px;
+ padding: 15px 0 15px 0;
+}
+
+.carousel {
+    margin: auto;
+    width: 25em;
+    height: 25em;
 }
 
 /* Dropdown settings */
@@ -87,7 +93,7 @@ main {
     display: inline-block;
     color: white;
     text-decoration: none;
-    transition: color .5 ease;
+    transition: color .5s ease;
     font-size: medium;
 }
 
@@ -124,11 +130,14 @@ p {
 }
 
 .my-footer {
+    display: flex;
     background-color: rgb(50, 50, 54);
     position: absolute;
     bottom: 0;
     width: 100%;
     height: auto;
+    align-content: flex-end;
+    flex-wrap: wrap;
 
 }
 
