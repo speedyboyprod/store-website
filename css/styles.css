@@ -1,17 +1,22 @@
+@font-face {
+    font-family: "Playfair_Display";
+    src: url("PlayfairDisplay.ttf");
+}
+
 header {
     height: 100%;
     margin: 0;
 }
 
 main {
-margin: 0 auto;
-padding: 15px 10px;
+ margin: 0 auto;
+ padding: 15px 10px;
 }
 
 /* Dropdown settings */
 
 .dropbtn {
-    margin: 10px 0 1px 10px;
+    padding: 10px;
     background-color: black;
     color: rgb(63, 63, 245);
     border: none;
@@ -22,6 +27,8 @@ padding: 15px 10px;
 }
 
 .dropdown {
+    display: flex;
+    align-self: center;
     position: relative;
     display: inline-block;
 }
@@ -90,7 +97,7 @@ padding: 15px 10px;
 
 h1 {
     text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: white;
     padding-top: 10px;
@@ -102,13 +109,22 @@ h2 {
     margin-top: 2em;
 }
 
+.container {
+    padding: 0.25em 0;
+}
+
+.row {
+    background-color: black;
+    margin: 0.25em;
+}
+
 p {
     color: gainsboro;
     padding: 1em;
 }
 
 .my-footer {
-    background-color: rgb(63, 63, 245);
+    background-color: rgb(50, 50, 54);
     position: absolute;
     bottom: 0;
     width: 100%;
