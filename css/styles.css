@@ -10,7 +10,7 @@ header {
 
 main {
  margin: 0 auto;
- padding: 15px 0 15px 0;
+ padding: 0;
 }
 
 .small-carousel {
@@ -26,6 +26,7 @@ main {
     background-color: black;
     color: rgb(63, 63, 245);
     border: none;
+    margin: 0 10px 0 0;
 }
 
 .dropbtn i {
@@ -62,7 +63,7 @@ main {
     display: flex;
     justify-content: space-between;
     background-color: black;
-    border-bottom: gray 1px solid;
+    border-bottom: rgb(50, 50, 54) solid 1px;
 }
 
 .shopping-cart {
@@ -74,6 +75,7 @@ main {
 
 .shopping-cart i {
     font-size: larger;
+    color: rgb(63, 63, 245);
 }
 
 .main-menu {
@@ -187,14 +189,14 @@ body {
     background-size: cover;
     min-height: 92vh;
     width: 100%;
-    /* background-color: black; */
+    background-color: black;
 }
 
 body.sign-in {
-    background-color: black;
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat;
+    background-color: white;
 }
 
 img.w-100 {
@@ -207,4 +209,8 @@ h2.fw-bold {
 
 .text-center p {
     color: black;
+}
+
+.text-center {
+    margin-bottom: 15px;
 }
