@@ -20,6 +20,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body
     style="
       background-image: url(./images/ComplicatedEthicalAsianwaterbuffalo-size_restricted.gif);
@@ -35,11 +36,127 @@
             <nav class="main-menu">
               <ul>
                 <li><a href="store.html">Store</a></li>
+                <li>
+                  <a
+                    role="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#loginModal"
+                    >Login</a
+                  >
+                </li>
                 <li><a href="register.html">Join</a></li>
               </ul>
             </nav>
           </div>
         </div>
+        <!--Login Modal-->
+        <div
+          class="modal top fade"
+          id="loginModal"
+          tabindex="-1"
+          aria-labelledby="loginModalLabel"
+          aria-hidden="true"
+          data-mdb-backdrop="static"
+          data-mdb-keyboard="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="container py-5 h-100">
+                <div
+                  class="row d-flex justify-content-center align-items-center h-100"
+                >
+                  <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div
+                      class="card shadow-2-strong"
+                      style="border-radius: 1rem"
+                    >
+                      <div class="card-body p-5 text-center">
+                        <div class="mb-md-5 mt-md-4 pb-5">
+                          <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                          <p class="text-black-50 mb-5">
+                            Please enter your login and password!
+                          </p>
+
+                          <div class="form-outline form-white mb-4">
+                            <input
+                              type="email"
+                              id="typeEmailX"
+                              class="form-control form-control-lg"
+                            />
+                            <label class="form-label" for="typeEmailX"
+                              >Email</label
+                            >
+                          </div>
+
+                          <div class="form-outline form-white mb-4">
+                            <input
+                              type="password"
+                              id="typePasswordX"
+                              class="form-control form-control-lg"
+                            />
+                            <label class="form-label" for="typePasswordX"
+                              >Password</label
+                            >
+                          </div>
+                          <!-- Checkbox -->
+                          <div
+                            class="form-check d-flex justify-content-center mb-4"
+                          >
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="form1Example3"
+                            />
+                            <label class="form-check-label" for="form1Example3">
+                              Remember password
+                            </label>
+                          </div>
+
+                          <p class="small mb-5 pb-lg-2">
+                            <a class="text-black-50" href="#!"
+                              >Forgot password?</a
+                            >
+                          </p>
+
+                          <button
+                            class="btn btn-outline-light btn-lg px-5"
+                            type="submit"
+                          >
+                            Login
+                          </button>
+
+                          <div
+                            class="d-flex justify-content-center text-center mt-4 pt-1"
+                          >
+                            <a href="#!" class="text-black"
+                              ><i class="fa fa-facebook-f fa-lg"></i
+                            ></a>
+                            <a href="#!" class="text-black"
+                              ><i class="fa fa-twitter fa-lg mx-4 px-2"></i
+                            ></a>
+                            <a href="#!" class="text-black"
+                              ><i class="fa fa-google fa-lg"></i
+                            ></a>
+                          </div>
+                        </div>
+                        <div>
+                          <p class="mb-0">
+                            Don't have an account?
+                            <a href="#!" class="text-blue-50 fw-bold"
+                              >Sign Up</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Login Modal End-->
         <a role="button" href="info.html"
           ><img
             src="./images/transparent-tensai-logo.png"
@@ -52,32 +169,23 @@
             ><i class="bi bi-cart"></i
           ></a>
         </div>
-        <!--Modal-->
+        <!--Cart Modal-->
         <div
           class="modal top fade"
           id="cartModal"
           tabindex="-1"
-          aria-labelledby="cartModalLabel"
           aria-hidden="true"
           data-mdb-backdrop="static"
           data-mdb-keyboard="true"
         >
           <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
-              <!-- <div class="modal-header">
-                <h5 class="modal-title" id="cartModalLabel">Shopping Cart</h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div> -->
               <div class="modal-body">
                 <section class="h-100 h-custom">
                   <h5 class="mb-3">
                     <a
-                      type="button"
+                      href="info.html"
+                      role="button"
                       style="text-decoration: none"
                       class="text-body"
                       data-bs-dismiss="modal"
@@ -185,7 +293,7 @@
                                     </button>
 
                                     <input
-                                      id="form0"
+                                      id="form2"
                                       min="0"
                                       name="quantity"
                                       value="1"
@@ -238,7 +346,7 @@
                                     </button>
 
                                     <input
-                                      id="form1"
+                                      id="form3"
                                       min="0"
                                       name="quantity"
                                       value="1"
@@ -361,7 +469,6 @@
                                         class="form-control form-control-lg"
                                         placeholder="MM/YY"
                                         size="7"
-                                        id="exp"
                                         minlength="7"
                                         maxlength="7"
                                       />
@@ -396,7 +503,7 @@
                                         minlength="3"
                                         maxlength="3"
                                       />
-                                      <label class="form-label" for="typeText"
+                                      <label class="form-label" for="typeText1"
                                         >Cvv</label
                                       >
                                     </div>
@@ -451,6 +558,7 @@
             </div>
           </div>
         </div>
+        <!--Cart Modal End-->
       </div>
     </header>
     <main>
@@ -461,15 +569,21 @@
           id="carouselExampleFade"
           class="carousel slide carousel-fade"
           data-bs-ride="carousel"
+          data-mdb-touch="true"
         >
           <div class="carousel-inner">
             <div class="carousel-item active c-item">
-              <a href="store.html"
-                ><img
+              <a href="store.html">
+                <img
                   src="./images/sbp-drumkit.JPG"
                   class="d-block w-100 c-img"
                   alt="Slide 1"
-              /></a>
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>KITS</h5>
+                  <p>My collection of drumkits and sample packs.</p>
+                </div>
+              </a>
             </div>
             <div class="carousel-item c-item">
               <img
@@ -477,6 +591,10 @@
                 class="d-block w-100 c-img"
                 alt="Slide 2"
               />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>ALBUMS</h5>
+                <p>The best place for ear space.</p>
+              </div>
             </div>
             <div class="carousel-item c-item">
               <a href="register.html"
@@ -484,7 +602,12 @@
                   src="./images/IMG_0549.PNG"
                   class="d-block w-100 c-img"
                   alt="Slide 3"
-              /></a>
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>REGISTER</h5>
+                  <p>Join to ascend.</p>
+                </div></a
+              >
             </div>
           </div>
           <button

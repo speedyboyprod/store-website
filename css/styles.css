@@ -26,11 +26,16 @@ main {
     background-color: black;
     color: rgb(63, 63, 245);
     border: none;
-    margin: 0 10px 0 0;
+    margin: 0;
 }
 
 .dropbtn i {
     font-size: larger;
+    transition: color .3s ease;
+}
+
+.dropbtn i:hover {
+    color: white
 }
 
 .dropdown {
@@ -76,6 +81,11 @@ main {
 .shopping-cart i {
     font-size: larger;
     color: rgb(63, 63, 245);
+    transition: color .3s ease;
+}
+
+.shopping-cart i:hover {
+    color: rgb(255, 255, 255);
 }
 
 .main-menu {
@@ -95,7 +105,7 @@ main {
     display: inline-block;
     color: white;
     text-decoration: none;
-    transition: color .5s ease;
+    transition: color .3s ease;
     font-size: medium;
 }
 
@@ -144,13 +154,14 @@ p.info {
     width: 30px;
 }
 
-.soundcloud {
+i.fa-soundcloud {
    margin-top: 5px;
    
 }
 
 .footer-menu i {
     margin: 5px 6px 10px;
+    transition: color .3s ease;
 }
 
 .footer-menu i:hover {
@@ -225,5 +236,13 @@ i.bi-arrow-left {
 }
 
 a.text-body :hover {
+    color: rgb(63, 63, 245);
+}
+
+a:not([href]):not([class]){
+    color: white;    
+}
+
+a:not([href]):not([class]):hover {
     color: rgb(63, 63, 245);
 }
