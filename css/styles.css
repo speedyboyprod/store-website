@@ -126,7 +126,7 @@ h2 {
     margin: 0.25em;
 }
 
-p {
+p.info {
     color: gainsboro;
     padding: 1em;
 }
@@ -213,4 +213,17 @@ h2.fw-bold {
 
 .text-center {
     margin-bottom: 15px;
+}
+
+.card {
+    border: 0;
+}
+
+i.bi-arrow-left {
+    margin: 0 8px 0;
+    padding-top: 18px;
+}
+
+a.text-body :hover {
+    color: rgb(63, 63, 245);
 }
