@@ -34,7 +34,16 @@
           <div class="dropdown-menu">
             <nav class="main-menu">
               <ul>
+                <li><a href="info.html">Home</a></li>
                 <li><a href="store.html">Store</a></li>
+                <li>
+                  <a
+                    role="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#loginModal"
+                    >Login</a
+                  >
+                </li>
                 <!-- <div class="dropdown-divider"></div> -->
                 <li><a href="register.html">Join</a></li>
               </ul>
@@ -46,7 +55,6 @@
           class="modal top fade"
           id="loginModal"
           tabindex="-1"
-          aria-labelledby="loginModalLabel"
           aria-hidden="true"
           data-mdb-backdrop="static"
           data-mdb-keyboard="true"
@@ -156,7 +164,7 @@
                   <h5 class="mb-3">
                     <a
                       href="store.html"
-                      type="button"
+                      role="button"
                       style="text-decoration: none"
                       class="text-body"
                       data-bs-dismiss="modal"
@@ -244,7 +252,7 @@
                                       alt="Book"
                                     />
                                     <div class="flex-column ms-4">
-                                      <p class="mb-2">IDK</p>
+                                      <p class="mb-2">IDC</p>
                                       <p class="mb-0">speedyboyprodigy.</p>
                                     </div>
                                   </div>
@@ -535,18 +543,96 @@
     <main>
       <div class="container">
         <h2>KITS</h2>
-        <div class="store-row">
-          <p>row</p>
-          <div class="col-md-4">col</div>
-          <div class="col-md-4">col</div>
-          <div class="col-md-4">col</div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: fit-content; height: auto">
+              <img
+                src="./images/sbp-drumkit.JPG"
+                alt="Blue sky and clouds with I don't care written in the sky"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">yvngprodigy's sound kit vol. 1</h5>
+                <p class="card-text">Drumkit information</p>
+                <p class="card-text">$9.99</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: fit-content; height: fit-content">
+              <img
+                src="./images/IMG_0702.JPG"
+                alt="Picture of Tokyo drift cars driving at night time"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">speedy's trusty sample pack</h5>
+                <p class="card-text">Drumkit information</p>
+                <p class="card-text">$9.99</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: fit-content; height: auto">
+              <img src="./images/IMG_0549.PNG" alt="" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title">prodigal bundle</h5>
+                <p class="card-text">Drumkit information</p>
+                <p class="card-text">$19.99</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
         </div>
         <h2>ALBUMS</h2>
-        <div class="store-row">
-          <p>row</p>
-          <div class="col-md-4">col</div>
-          <div class="col-md-4">col</div>
-          <div class="col-md-4">col</div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: fit-content; height: auto">
+              <img
+                src="./images/IMG_0484.PNG"
+                alt="Blue sky and clouds with I don't care written in the sky"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">IDC</h5>
+                <p class="card-text">Album information</p>
+                <p class="card-text">$13.50</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: fit-content; height: auto">
+              <img
+                src="./images/sbp_cover.PNG"
+                alt="Photoshopped art of a japanese drift car"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">RESURGENCE</h5>
+                <p class="card-text">Album information</p>
+                <p class="card-text">$13.50</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: fit-content; height: auto">
+              <img
+                src="./images/IMG_0003.JPG"
+                alt="Photoshopped art of Metal Sonic looking off in the distance"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">[derivative.]</h5>
+                <p class="card-text">Album information</p>
+                <p class="card-text">$13.50</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
