@@ -13,7 +13,7 @@ main {
  padding: 15px 0 15px 0;
 }
 
-.carousel {
+.small-carousel {
     margin: auto;
     width: 25em;
     height: 25em;
@@ -119,7 +119,7 @@ h2 {
     padding: 0.25em 0;
 }
 
-.row {
+.store-row {
     background-color: black;
     margin: 0.25em;
 }
@@ -132,10 +132,7 @@ p {
 .my-footer {
     display: flex;
     background-color: rgb(50, 50, 54);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+    width: auto;
     align-content: flex-end;
     flex-wrap: wrap;
 
@@ -155,7 +152,7 @@ p {
 }
 
 .footer-menu i:hover {
-    color: #232a8a;
+    color: #4b508e;
 
 }
 
@@ -190,6 +187,7 @@ body {
     background-size: cover;
     min-height: 92vh;
     width: 100%;
+    /* background-color: black; */
 }
 
 body.sign-in {
@@ -197,4 +195,16 @@ body.sign-in {
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat;
+}
+
+img.w-100 {
+    background-size: contain;
+}
+
+h2.fw-bold {
+    color: black;
+}
+
+.text-center p {
+    color: black;
 }
