@@ -230,6 +230,10 @@ h2.fw-bold {
     border: 0;
 }
 
+.col-md-4 {
+    margin: 10px 0 20px 0;
+}
+
 i.bi-arrow-left {
     margin: 0 8px 0;
     padding-top: 18px;
