@@ -139,6 +139,7 @@ h2 {
 p.info {
     color: gainsboro;
     padding: 1em;
+    margin: 1rem;
 }
 
 .my-footer {
@@ -147,7 +148,6 @@ p.info {
     width: auto;
     align-content: flex-end;
     flex-wrap: wrap;
-
 }
 
 .footer-menu img {
